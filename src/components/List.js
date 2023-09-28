@@ -4,12 +4,12 @@ import {FaTrash, FaEdit} from 'react-icons/fa'
 const List = ({items, removeItem, editItem}) => {
   return (
     <div className='container'>
-        {items.map((items)=> {
-            const {id, title} = items;
+        {items.map((item)=> {
+            const {id, title} = item;
             return(
                 <ul className='list-group list-group-flush' key={id}>
                     <li className='list-group-item d-flex justify-content-between align-items-center'>
-                        {items}
+                        {title}
                         <div style={{float: "right"}}>
                             <button 
                             type="button"
