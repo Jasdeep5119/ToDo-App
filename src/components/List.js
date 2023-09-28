@@ -8,7 +8,7 @@ const List = ({items, removeItem, editItem}) => {
             const {id, title} = items;
             return(
                 <ul className='list-group list-group-flush' key={id}>
-                    <li className='list-group-item d-flex justify-between align-items-center'>
+                    <li className='list-group-item d-flex justify-content-between align-items-center'>
                         {items}
                         <div style={{float: "right"}}>
                             <button 
