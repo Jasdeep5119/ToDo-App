@@ -12,6 +12,33 @@ code {
     monospace;
 }
 
+.section{
+  padding: 5rem 0;
+}
+
+.section-center{
+  background: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  padding: 2rem;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+}
+
+.alert-danger{
+  color: #721c24;
+  background: #f8d7da;
+}
+
+.alert-success{
+  color: #155724;
+  background: #d4edda;
+}
+
 .edit-btn, .delete-btn{
   background: transparent;
   border-color: transparent;
